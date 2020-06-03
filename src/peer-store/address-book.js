@@ -26,6 +26,13 @@ class AddressBook extends Book {
    */
 
   /**
+  * Entry object for the addressBook
+  * @typedef {Object} Entry
+  * @property {Array<Address>} addresses peer Addresses.
+  * @property {CertifiedRecord} record certified peer record.
+  */
+
+  /**
   * @constructor
   * @param {PeerStore} peerStore
   */

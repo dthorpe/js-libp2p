@@ -59,12 +59,13 @@
     "it-pipe": "^1.1.0",
     "it-protocol-buffers": "^0.2.0",
     "libp2p-crypto": "^0.17.6",
-    "libp2p-interfaces": "^0.3.0",
+    "libp2p-interfaces": "libp2p/js-libp2p-interfaces#feat/record-interface",
     "libp2p-utils": "^0.1.2",
     "mafmt": "^7.0.0",
     "merge-options": "^2.0.0",
     "moving-average": "^1.0.0",
     "multiaddr": "^7.4.3",
+    "multicodec": "multiformats/js-multicodec#chore/add-libp2p-peer-record",
     "multistream-select": "^0.15.0",
     "mutable-proxy": "^1.0.0",
     "node-forge": "^0.9.1",
@@ -77,6 +78,7 @@
     "sanitize-filename": "^1.6.3",
     "streaming-iterables": "^4.1.0",
     "timeout-abort-controller": "^1.0.0",
+    "varint": "^5.0.0",
     "xsalsa20": "^1.0.2"
   },
   "devDependencies": {
